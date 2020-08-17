@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <script>
+                    function buttonPressed() {
+                        var usernameString = document.getElementById("username").value;
+                        var passwordString = document.getElementById("password").value;
+                        if(usernameString == "demoUser" && passwordString == "demoPassword") {
+                            alert("Login succesful");
+                        } else {
+                            alert("Unsuccesful login");
+                        }
+                    }   
+                </script>
+                <button onclick="buttonPressed()" id="loginButton">
+                    Login
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
