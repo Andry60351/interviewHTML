@@ -2,6 +2,7 @@ body {
     background-image: url(../assets/backgroundImage.png);
     background-size: cover;
     background-position: center;
+    
 }
 
 .login-page {
@@ -37,7 +38,7 @@ button {
     text-transform: uppercase;
     outline: 0;
     background: #4caf50;
-    width: 100%;
+    width: 100px;
     border: 0;
     padding: 15px;
     color: #ffffff;
