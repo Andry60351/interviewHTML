@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/backgroundImage.png);
+    background-image: url(../assets/backgroundImage.png);
     background-size: cover;
     background-position: center;
 }
@@ -47,4 +47,8 @@ button {
 
 .form button:hover, .form button:active {
     background: #43a047;
+}
+
+h1 {
+    color: white;
 }
